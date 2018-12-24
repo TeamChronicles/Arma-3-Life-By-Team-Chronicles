@@ -29,3 +29,13 @@ class survie
 		class cycle_survie{};
 	};
 };
+
+class session
+{
+	tag = "session";
+	class functions
+	{
+		file = "coeur\session";
+		class asyncCall{};
+	};
+};

@@ -57,7 +57,7 @@ respawn_civilian
 */
 respawndelay=10;
 respawnDialog=0;
-respawnOnStart=-1;
+respawnOnStart=0;
 respawnTemplates[]={};
 respawnButton=0;
 //---------------------------------
