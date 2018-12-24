@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="Chronicles Life RPG">
+    <Package name="Global">
+        <Key ID="STR_Oui">
+            <Original>Oui</Original>
+            <French>Oui</French>
+        </Key>
+        <Key ID="STR_Non">
+            <Original>Non</Original>
+            <French>Non</French>
+        </Key>
+    </Package>
+    <Package name="Survie">
+
+        <Key ID="STR_Pas_Faim">
+            <Original>Tu as pas faim</Original>
+            <French>Tu as pas faim</French>
+        </Key>
+        <Key ID="STR_Un_Peu_Faim">
+            <Original>Tu as un peu faim</Original>
+            <French>Tu as un peu faim</French>
+        </Key>
+        <Key ID="STR_Tu_As_Faim">
+            <Original>Tu as faim</Original>
+            <French>Tu as faim</French>
+        </Key>
+        <Key ID="STR_Meur_de_Faim">
+            <Original>Tu meurs de faim</Original>
+            <French>Tu meurs de faim</French>
+        </Key>
+        <Key ID="STR_mort_faim">
+            <Original>Tu es mort de faim</Original>
+            <French>Tu es mort de faim</French>
+        </Key>
+
+        <Key ID="STR_Pas_Soif">
+            <Original>Tu as pas soif</Original>
+            <French>Tu as pas soif</French>
+        </Key>
+        <Key ID="STR_Un_Peu_Soif">
+            <Original>Tu as un peu soif</Original>
+            <French>Tu as un peu soif</French>
+        </Key>
+        <Key ID="STR_Tu_As_Soif">
+            <Original>Tu as soif</Original>
+            <French>Tu as soif</French>
+        </Key>
+        <Key ID="STR_Meur_de_Soif">
+            <Original>Tu meurs de soif</Original>
+            <French>Tu meurs de soif</French>
+        </Key>
+        <Key ID="STR_mort_Soif">
+            <Original>Tu es mort de soif</Original>
+            <French>Tu es mort de soif</French>
+        </Key>
+    </Package>
+
+     <Package name="Argents">
+        <Key ID="STR_Pas_De_Salaire_tu_es_mort">
+            <Original>Tu es mort, tu n'as pas de salaire</Original>
+            <French>Tu es mort, tu n'as pas de salaire</French>
+        </Key>
+     </Package>
+</Project>

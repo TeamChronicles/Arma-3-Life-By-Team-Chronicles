@@ -1,0 +1,145 @@
+/*
+    File: description.ext
+    Auteur: Jack Lania | Team-Chronicles.fr
+
+    Description:
+    description de la mission
+*/
+
+
+
+//  __  __ _____  _____ _____ _____ ____  _   _    _____ ____  _   _ ______ _____ _____
+// |  \/  |_   _|/ ____/ ____|_   _/ __ \| \ | |  / ____/ __ \| \ | |  ____|_   _/ ____|
+// | \  / | | | | (___| (___   | || |  | |  \| | | |   | |  | |  \| | |__    | || |  __
+// | |\/| | | |  \___ \\___ \  | || |  | | . ` | | |   | |  | | . ` |  __|   | || | |_ |
+// | |  | |_| |_ ____) |___) |_| || |__| | |\  | | |___| |__| | |\  | |     _| || |__| |
+// |_|  |_|_____|_____/_____/|_____\____/|_| \_|  \_____\____/|_| \_|_|    |_____\_____|
+
+// ***********************************
+// ******** chargement infos *********
+// ***********************************
+author="Team Chronicles";
+onLoadName="Chronicles Life";
+onLoadMission="Chronicles Life par la Team Chronicles";
+onLoadMissionTime=0;
+onLoadIntro="Chronicles Life";
+onLoadIntroTime=0;
+//---------------------------------
+
+// ***********************************
+// *********** serveur ***************
+// ***********************************
+class Header
+{
+	gameType=RPG;
+	minPlayers=1;
+	maxPlayers=200;
+};
+//---------------------------------
+
+/**********************************
+*** rejoindre / quitter configs ***
+***********************************/
+joinUnassigned=0;
+briefing=0;
+debriefing=0;
+//---------------------------------
+
+/**********************************
+************ respawn **************
+***********************************/
+respawn=3;
+/*
+respawn_west
+respawn_east
+respawn_guerrila
+respawn_civilian
+*/
+respawndelay=10;
+respawnDialog=0;
+respawnOnStart=-1;
+respawnTemplates[]={};
+respawnButton=0;
+//---------------------------------
+
+/**********************************
+******** ArmA revive system *******
+***********************************/
+Revive=0;
+//---------------------------------
+
+/**********************************
+********* Manager *********
+***********************************/
+corpseManagerMode=1;
+corpseLimit=1;
+corpseRemovalMinTime=0;
+corpseRemovalMaxTime=0;
+
+wreckManagerMode=0;
+wreckLimit=15;
+wreckRemovalMinTime=10;
+wreckRemovalMaxTime=3600;
+//---------------------------------
+
+/**********************************
+********** Vole  systeme *********
+***********************************/
+forceRotorLibSimulation=0;
+//---------------------------------
+
+/**********************************
+*********** Communication *********
+***********************************/
+disableChannels[]={{0,1,1},{1,1,1},{2,1,1},{3,1,1},{4,1,1},{5,1,1},{6,1,1}};
+//---------------------------------
+
+/**********************************
+************** IA *****************
+***********************************/
+aiKills=0;
+disabledAI=1;
+//---------------------------------
+
+/**********************************
+*************** Misc **************
+***********************************/
+saving=0;
+enableItemsDropping=0;
+weaponPool=0;
+enableDebugConsole=1;
+scriptedPlayer=1;
+allowFunctionsLog=1;
+disableRandomization[]={"All"};
+allowFunctionsRecompile=0;
+
+/**********************************
+*************** SHOW **************
+***********************************/
+showCompass=1;
+showPad=0;
+showWatch=1;
+showGroupIndicator=0;
+showMap=1;
+showNotePad=0;
+showGPS=0;
+showHUD[]={
+	1,// Scripted HUD (same as showHUD command)
+	0,// Vehicle + soldier info
+	0,// Vehicle radar
+	0,// Vehicle compass
+	0,// Tank direction indicator
+	0,// Commanding menu
+	0,// Group Bar
+	1,// HUD Weapon Cursors
+	0// HUD Squad Radar
+};
+
+/**********************************
+************ Functions ************
+***********************************/
+
+class cfgFunctions
+{
+	#include "coeur\functions.hpp"
+};
