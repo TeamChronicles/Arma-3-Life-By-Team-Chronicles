@@ -5,6 +5,7 @@ class ch
 	{
 		file = "coeur";
 		class init_playerlocal{};
+		class init{};
 	};
 };
 

@@ -9,3 +9,5 @@
 if (hasInterface) then {
     [] execVM "briefing.sqf";
 };
+
+call ch_fnc_init
